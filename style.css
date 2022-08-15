@@ -65,6 +65,10 @@ body {
     margin-right: 16px;
 }
 
+.selecionar {
+    box-shadow: inset 0px 0px 0px 5px #32B72F;
+}
+
 .option :nth-child(1) {
     width: 144px;
     height: 87px;
@@ -130,11 +134,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 15px 25px;
-}
-
-.condition p {
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+.enviarPedido {
+    background-color: #32B72F;
 }
