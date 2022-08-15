@@ -7,14 +7,14 @@ function escolherBurger(burger) {
     if (selecao !== null) {
         selecao.classList.remove('selecionar');
     }
-
+    
     burger.classList.add('selecionar');
+
     burgers = burger;
     precoBurgers = Number(burger.getElementsByTagName("h3")[0].textContent);
 
     finalizar();
 }
-
 
 let bebidas = false;
 let precoBebidas = 0;
@@ -58,7 +58,11 @@ function finalizar() {
         processarPedido.classList.add("enviarPedido");
         let preco = precoBebidas + precoBurgers + precoSobremesas;
 
-        let msgWhats = `Olá, gostaria de fazer o pedido: \n- Prato: ${burgers.getElementsByTagName("h1")[0].textContent} \n- Bebida: ${bebidas.getElementsByTagName("h1")[0].textContent} \n- Sobremesa: ${sobremesas.getElementsByTagName("h1")[0].textContent} \nTotal: R$ ${preco.toFixed(2)}`;
+        let msgWhats = `Olá, gostaria de fazer o pedido: \n
+        - Prato: ${burgers.getElementsByTagName("h1")[0].textContent} \n
+        - Bebida: ${bebidas.getElementsByTagName("h1")[0].textContent} \n
+        - Sobremesa: ${sobremesas.getElementsByTagName("h1")[0].textContent} \n
+        Total: R$ ${preco.toFixed(2)}`;
 
 
         let encode = encodeURIComponent(msgWhats);

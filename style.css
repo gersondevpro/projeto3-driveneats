@@ -159,20 +159,20 @@ ion-icon {
     width: 19px;
     height: 19px;
     color: green;
-    bottom: 14px;
-    right: 11px;
-    display: flex;
-}
-
-/* ion-icon #linha1 {
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    color: green;
     bottom: 12px;
     right: 12px;
-    display: flex;
-} */
+}
+
+.white {
+    width: 21px;
+    height: 21px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    z-index: 10;
+    color: #ffffff;
+}
 
 /* .check {
     width: 19px;
