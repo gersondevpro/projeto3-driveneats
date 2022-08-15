@@ -154,7 +154,7 @@ a {
     font-weight: 400;
 }
 
-ion-icon {
+/* ion-icon {
     position: absolute;
     width: 19px;
     height: 19px;
@@ -172,7 +172,7 @@ ion-icon {
     right: 12px;
     z-index: 10;
     color: #ffffff;
-}
+} */
 
 /* .check {
     width: 19px;
